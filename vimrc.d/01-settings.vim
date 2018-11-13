@@ -9,8 +9,10 @@ filetype plugin indent on   " Enable filetype detection, run plugin associated t
 syntax enable   " Switch on syntax highlighting
 
 " Whitespace
-set expandtab   " spaces instead of tabs
-set smarttab    " use shiftwidth to enter tabs
+set tabstop=4            " numbers of spaces of tab character
+set shiftwidth=4         " numbers of spaces to (auto)indent
+set expandtab            " Tab to spaces by default
+set softtabstop=4                                                               
 set autoindent  " automatically indent to match adjacent lines 
 
 " Disable arrow keys in normal mode
