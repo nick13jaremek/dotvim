@@ -17,5 +17,5 @@ ln -s $HOME/.vim/vimrc $HOME/.vimrc
 cd $HOME/.vim
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-
+# Run: vim +PlugUpdate +qa
 
