@@ -31,6 +31,9 @@ set expandtab            " Tab to spaces by default
 set softtabstop=4                                                               
 set autoindent  " automatically indent to match adjacent lines 
 
+" Set mapleader key
+let mapleader = ","
+
 " Disable arrow keys in normal mode
 nnoremap <up> <nop>
 nnoremap <down> <nop>
@@ -53,3 +56,5 @@ map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 
+" Save shortcut
+nmap <leader>w :w!<cr>
