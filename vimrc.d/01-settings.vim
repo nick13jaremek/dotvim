@@ -14,7 +14,7 @@ set autoread    " Automatically reread changed files
 set laststatus=2
 set hidden
 set hls
-
+set number
 " Swap files
 set noswapfile  " Don't use swapfile
 set nobackup	" Don't create backup files

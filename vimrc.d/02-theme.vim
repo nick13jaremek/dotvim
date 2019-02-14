@@ -6,3 +6,4 @@ if $COLORTERM == 'gnome-terminal'
 endif
 
 colorscheme PaperColor
+highlight LineNr guifg=Steelblue
