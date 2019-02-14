@@ -10,6 +10,15 @@ syntax enable   " Switch on syntax highlighting
 
 set showcmd     " Show entered keys for visual reference
 
+" Swap files
+set noswapfile  " Don't use swapfile
+set nobackup	" Don't create backup files
+set nowritebackup
+
+" Window splitting
+set splitright  " Split vertical windows to the right of the current window
+set splitbelow  " Split horizontal windows below the current window
+
 " Whitespace
 set tabstop=4            " numbers of spaces of tab character
 set shiftwidth=4         " numbers of spaces to (auto)indent
