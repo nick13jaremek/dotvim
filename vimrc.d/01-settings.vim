@@ -9,6 +9,11 @@ filetype plugin indent on   " Enable filetype detection, run plugin associated t
 syntax enable   " Switch on syntax highlighting
 
 set showcmd     " Show entered keys for visual reference
+set autowrite   " Automatically save before running commands 
+set autoread    " Automatically reread changed files 
+set laststatus=2
+set hidden
+set hls
 
 " Swap files
 set noswapfile  " Don't use swapfile
