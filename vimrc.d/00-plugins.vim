@@ -9,4 +9,5 @@ Plug 'tpope/vim-commentary'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'mattn/emmet-vim'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'tpope/vim-fugitive'
 call plug#end()
