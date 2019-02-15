@@ -48,7 +48,7 @@ inoremap <right> <nop>
 
 " Easier movement between buffers
 nnoremap <C-x> :bnext<CR>
-nnoremap <C-z> :nprev<CR>
+nnoremap <C-z> :bprev<CR>
 
 " Make switching between splits easier
 map <C-j> <C-W>j
