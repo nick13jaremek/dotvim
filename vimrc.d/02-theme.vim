@@ -5,5 +5,7 @@ if $COLORTERM == 'gnome-terminal'
     set t_Co=256
 endif
 
-colorscheme PaperColor
-highlight LineNr guifg=Steelblue
+let g:dracula_italic = 0
+set background=dark
+colorscheme dracula
+highlight Normal ctermbg=None
