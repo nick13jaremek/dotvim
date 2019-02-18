@@ -54,6 +54,12 @@ set wildignore+=*/.sass-cache/*
 set wildignore+=*/.jhw-cache/*
 set wildignore+=*/node_modules/*
 set wildignore+=*/vendor/*
+set wildignore+=migrations                       " Django migrations
+set wildignore+=go/pkg                           " Go static files
+set wildignore+=go/bin                           " Go bin files
+set wildignore+=go/bin-vagrant                   " Go bin-vagrant files
+set wildignore+=*.pyc                            " Python byte code
+set wildignore+=*.orig                           " Merge resolution files
 set backspace=indent,eol,start
 
 " Set mapleader key
