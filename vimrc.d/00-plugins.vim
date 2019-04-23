@@ -15,4 +15,5 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'leafgarland/typescript-vim'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'w0rp/ale'
+Plug 'ludovicchabant/vim-gutentags'
 call plug#end()

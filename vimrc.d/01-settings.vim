@@ -112,3 +112,5 @@ map  <leader>7 7gt
 map  <leader>8 8gt
 map  <leader>9 9gt
 
+" Mapping of go to definition
+nnoremap <leader>a <C-]>
