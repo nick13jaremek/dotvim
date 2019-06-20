@@ -16,4 +16,5 @@ Plug 'leafgarland/typescript-vim'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'w0rp/ale'
 Plug 'ludovicchabant/vim-gutentags'
+Plug 'posva/vim-vue'
 call plug#end()
