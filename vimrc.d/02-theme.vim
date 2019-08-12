@@ -5,4 +5,5 @@ if $COLORTERM == 'gnome-terminal'
     set t_Co=256
 endif
 
-colorscheme tempus_future
+" colorscheme tempus_future
+colorscheme base16-synth-midnight-dark
