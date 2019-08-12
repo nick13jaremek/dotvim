@@ -5,7 +5,4 @@ if $COLORTERM == 'gnome-terminal'
     set t_Co=256
 endif
 
-let g:dracula_italic = 0
-set background=dark
-colorscheme dracula
-highlight Normal ctermbg=None
+colorscheme tempus_future

@@ -17,4 +17,5 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'w0rp/ale'
 Plug 'ludovicchabant/vim-gutentags'
 Plug 'posva/vim-vue'
+Plug 'https://gitlab.com/protesilaos/tempus-themes-vim.git'
 call plug#end()
