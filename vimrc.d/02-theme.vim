@@ -6,4 +6,6 @@ if $COLORTERM == 'gnome-terminal'
 endif
 
 " colorscheme tempus_future
-colorscheme base16-synth-midnight-dark
+" colorscheme base16-synth-midnight-dark
+set background=light
+colorscheme PaperColor
