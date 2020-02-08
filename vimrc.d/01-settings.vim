@@ -112,5 +112,9 @@ map  <leader>7 7gt
 map  <leader>8 8gt
 map  <leader>9 9gt
 
-" Mapping of go to definition
+" Mapping next and previous tag in code
 nnoremap <leader>a <C-]>
+nnoremap <leader>w :tnext<CR>
+nnoremap <leader>q :tprev<CR>
+nnoremap <leader>r <C-t>
+
