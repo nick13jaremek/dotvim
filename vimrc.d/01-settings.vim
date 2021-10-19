@@ -16,6 +16,8 @@ set hidden
 set hls
 set number
 
+set path+=**	" Search down into subfolders. Provides tab-completion for all file-related tasks
+
 " Swap files
 set noswapfile  " Don't use swapfile
 set nobackup	" Don't create backup files
@@ -35,6 +37,8 @@ set wrap
 set autoindent  " automatically indent to match adjacent lines 
 set copyindent  " automatically copy the previous indentation on autoindenting
 
+" Wildmenu
+set wildmenu	" Display all matching files we tab completing
 set wildmode=list:longest,list:full
 set wildignore+=*.o
 set wildignore+=*.obj
